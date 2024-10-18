@@ -1,6 +1,7 @@
+package Sesi_2;
 import java.util.Scanner;
 
-public class Main {
+public class Tugas1 {
 
     // 1.Menghitung uang kembaliam
     public static void hitungKembalian(double jumlahTelur, double uangDiberikan) {
