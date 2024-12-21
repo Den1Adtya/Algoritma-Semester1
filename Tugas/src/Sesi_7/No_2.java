@@ -98,5 +98,7 @@ public class No_2 {
         System.out.printf("Jumlah SKS: %-5d%n", totalSKS);
         System.out.printf("IP Semester: %.2f%n", ipk);
         System.out.printf("SkS Maksimal Yang Bisa Diambil Semester Depan:  %d%n", nextSks);
+        scanner.close();
     }
+    
 }

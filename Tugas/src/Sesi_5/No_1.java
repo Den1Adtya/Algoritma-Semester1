@@ -14,10 +14,10 @@ class Mahasiswa {
 
 public class No_1 {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan jumlah data: ");
-        int jumlah = sc.nextInt();
-        sc.nextLine(); 
+        int jumlah = scanner.nextInt();
+        scanner.nextLine(); 
 
         Mahasiswa[] daftarMahasiswa = new Mahasiswa[jumlah];
 
@@ -27,11 +27,11 @@ public class No_1 {
             System.out.println("Mahasiswa Ke : " + (i + 1));
 
             System.out.print("Nama: ");
-            String nama = sc.nextLine();
+            String nama = scanner.nextLine();
 
             System.out.print("Nilai: ");
-            int nilai = sc.nextInt();
-            sc.nextLine(); // Membersihkan buffer
+            int nilai = scanner.nextInt();
+            scanner.nextLine(); // Membersihkan buffer
 
             daftarMahasiswa[i] = new Mahasiswa(nama, nilai);
             i++;
@@ -56,6 +56,6 @@ public class No_1 {
         System.out.println("Nilai Rata-rata: " + rataRata);
 
     
-        sc.close();
+        scanner.close();
     }
 }
